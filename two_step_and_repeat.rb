@@ -39,6 +39,8 @@ def how_many_steps?
     else
       puts "Right"
     sleep(0.5)
+  end
+end
 
 end
 
