@@ -34,6 +34,10 @@ def how_many_steps?
   loop do
     steps += 1
     puts steps
+    if steps % 2 == 0
+      puts "Left"
+    else
+      puts "Right"
 
 end
 
