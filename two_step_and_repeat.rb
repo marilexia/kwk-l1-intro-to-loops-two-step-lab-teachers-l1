@@ -49,16 +49,19 @@ def break_dance
   # loop if steps is equal to 6
   steps = 0
   loop do
-    steps += 1
-    puts steps
-    if steps % 2 == 0
-      puts "Left"
-    else
-      puts "Right"
-    sleep(0.5)
-  end
+      steps += 1
+      puts steps
+      if steps % 2 == 0
+        puts "Left"
+      else
+        puts "Right"
+      sleep(0.5)
+      end
 
-  if steps == 6
-    break
+      if steps == 6
+        break
+      end
+
+  end
 
 end
